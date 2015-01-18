@@ -16,7 +16,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
-	<title>Acme Movie Review</title>
+	<title>Search Results</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	
@@ -38,9 +38,8 @@
 </head>
 
 <body>
+<div class="container"><!-- Site cont.-->
 
-	<div id ="container"><!--  Site container -->
-    
     <!-- Navbar  -->
             <div class="navbar navbar-inverse">
               <div class="navbar-header">
@@ -55,7 +54,6 @@
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="#">Home</a></li>
                   <li><a href="fav.html">Favorites</a></li>
-                  <li><a href="results.html">Featured</a></li>
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Filters<b class="caret"></b></a>
                     <ul class="dropdown-menu">
@@ -91,19 +89,52 @@
               </div>
             </div> 
    <!-- Navbar End  -->
-    
-    <!-- /Jumbotron container -->
-<div class="container">
 
-<div class="row">
-        <div class="col-md-7 col-md-offset-2">
-		<div class="jumbotron">
-        <h1>Acme Movie Review</h1>
-        <p class="lead">The place where YOU are the movie reviewer. Just sign up today to join our friendly communtiy.</p>
-        <p><a class="btn btn-primary" href="reg.html" role="button">Sign up today</a></p>
-      </div>
-      </div>
-      </div><!-- /Jumbotron container close -->
+
+        <hr>
+        
+<!---->
+
+<div id="masthead">  
+  <div class="container">
+  </div><!--/container-->
+</div><!--/masthead-->
+
+<!--main-->
+<div class="container">
+	<div class="row">
+      <!--left-->
+      <div class="col-md-3" id="leftCol"><!--left-->
+      </div><!--/left-->
+      
+      <!--right-->
+      <div class="col-md-9"><!--right-->
+        
+        <h2 id="sec2">Search Results</h2>
+        
+        <div class="row"><!--results-->
+          <div class="col-xs-6 col-md-3">
+            <a href="details" class="thumbnail">
+              <img data-src="images/ast.jpg" alt="...">
+            </a>
+          </div>
+          Title
+        </div><!--/results-->
+        
+        <hr>
+        
+        
+        
+
+        </div><!--/right-->
+  	</div><!--/row-->
+</div><!--/container-->
+        
+        <hr>
+
+
+
+
 <!-- Footer -->
   <hr>  
   <div class="container"> <!--  Footer cont. -->
@@ -116,12 +147,9 @@
     </div><!-- col. close -->
   </div> <!--  Footer cont. close -->
 <!-- Footer Close --> 
-    
-      
-      </div><!-- Site container close -->
+</div><!--Site cont. close-->
 
-
-
+	
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -131,7 +159,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-  
+   
 </body>
 </html>
 

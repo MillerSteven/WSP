@@ -16,7 +16,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
-	<title>Acme Movie Review</title>
+	<title>New User</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	
@@ -39,7 +39,8 @@
 
 <body>
 
-	<div id ="container"><!--  Site container -->
+    
+	<div id ="container"><!-- Site Container -->
     
     <!-- Navbar  -->
             <div class="navbar navbar-inverse">
@@ -55,7 +56,6 @@
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="#">Home</a></li>
                   <li><a href="fav.html">Favorites</a></li>
-                  <li><a href="results.html">Featured</a></li>
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Filters<b class="caret"></b></a>
                     <ul class="dropdown-menu">
@@ -92,18 +92,49 @@
             </div> 
    <!-- Navbar End  -->
     
-    <!-- /Jumbotron container -->
-<div class="container">
+    		<div class="container"><!--  Form container -->
+            <div class="row">
+            <div class="col-xs-4 col-sm-8 col-md-3 col-md-offset-4"> 
+                
+                <form class="form-horizontal">
+                  <fieldset>
+                    <legend>Please Sign Up</legend>
+                    
+                    <div class="form-group">
+                      <label for="inputEmail" class="col-lg-2 control-label ">Username</label>
+                      <div class="col-lg-10">
+                        <input class="form-control" id="inputEmail" placeholder="Username" type="text">
+                      </div>
+                    </div>
 
-<div class="row">
-        <div class="col-md-7 col-md-offset-2">
-		<div class="jumbotron">
-        <h1>Acme Movie Review</h1>
-        <p class="lead">The place where YOU are the movie reviewer. Just sign up today to join our friendly communtiy.</p>
-        <p><a class="btn btn-primary" href="reg.html" role="button">Sign up today</a></p>
-      </div>
-      </div>
-      </div><!-- /Jumbotron container close -->
+                    <div class="form-group">
+                      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                      <div class="col-lg-10">
+                        <input class="form-control" id="inputEmail" placeholder="Email" type="text">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+                      <div class="col-lg-10">
+                        <input class="form-control" id="inputPassword" placeholder="Password" type="password">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox"> Remember Me
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-lg-10 col-lg-offset-2">
+                        <button type="submit" class="btn btn-default">Sign Up</button>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+
+  			</div><!-- Row close -->
+            </div><!-- Col. close -->
+            </div><!-- Form cont. close -->
 <!-- Footer -->
   <hr>  
   <div class="container"> <!--  Footer cont. -->
@@ -116,12 +147,10 @@
     </div><!-- col. close -->
   </div> <!--  Footer cont. close -->
 <!-- Footer Close --> 
-    
-      
-      </div><!-- Site container close -->
-
-
-
+	</div><!--  Site Container close -->
+	
+	
+	
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
