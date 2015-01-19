@@ -5,6 +5,6 @@ Steven Miller
 
 Student Id 0004255858
 
-Repo Url :https://github.com/MillerSteven/WSP
+Repo Url :http://millersteven.github.io/WSP/
 
 millersteven.github.com/WIU/index.html
