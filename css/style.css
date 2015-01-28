@@ -430,13 +430,22 @@ th {
 /*/normalize*/
 
 /*Custom css*/
-.lead{
+
+
+
+
+.lead {
 	text-align: center;
-	}
+}
 	
-h1,h2{
+h1,h2 {
 	text-align: center;
-	}
+}
+
+.title1{
+	text-align: center;
+	padding-top: 10px;
+}
 	
 	
 	
